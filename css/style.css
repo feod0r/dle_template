@@ -1,0 +1,38 @@
+body{
+	/*padding-top: 2rem;*/
+}
+.bg-img{
+	background-image: url(../images/bgc.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container{
+     min-width:960px !important;
+}
+
+.carousel-item {
+  height: 16rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  /*filter: opacity(.6) blur(3px);*/
+	position: absolute;
+
+
+}
+.no_spaces{
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+pre{
+    overflow:auto
+}
+code,kbd,pre,samp{
+    font-family:monospace,monospace;
+    font-size:1em
+}
